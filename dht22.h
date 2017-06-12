@@ -35,7 +35,7 @@ written by IoT Pipe
 
 
 static uint8_t data[5];
-static uint8_t _pin, _type, _bit, _type;
+static uint8_t _pin, _type, _bit;
 static uint32_t _lastreadtime, _maxcycles;
 static bool _lastresult;
 static uint32_t expectPulse(bool level);
